@@ -1,0 +1,106 @@
+html
+ hyper text markup language
+ used to create web pages
+ 
+html always strts with html element(<html>).
+then follows with head element(<head>).
+then title(<title>)
+then body(<body>).
+then heading(<h1>).(h1,h2,h3,.....h6)
+paragraph(<p>).
+
+The <br> tag defines a line break, and is an empty element without a closing tag.
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page.
+The style attribute is used to add styles to an element, such as color, font, size, and more.
+The title attribute defines some extra information about an element.
+The HTML <pre> element defines preformatted text.
+The CSS background-color property defines the background color for an HTML element.
+The CSS color property defines the text color for an HTML element.
+The CSS font-family property defines the font to be used for an HTML element.
+The CSS font-size property defines the text size for an HTML element.
+The CSS text-align property defines the horizontal text alignment for an HTML element.
+
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+The HTML <blockquote> element defines a section that is quoted from another source.
+The HTML <q> tag defines a short quotation.
+The HTML <abbr> tag defines an abbreviation
+The HTML <address> tag defines the contact information for the author/owner of a document or an article.
+The HTML <cite> tag defines the title of a creative work 
+The HTML <bdo> tag is used to override the current text direction.
+
+HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+color names
+	Tomato
+	Orange
+	DodgerBlue
+	MediumSeaGreen
+	Gray
+	SlateBlue
+	Violet
+	LightGray
+
+An RGB color value represents RED, GREEN, and BLUE light sources.
+In HTML, a color can be specified using a hexadecimal value.
+Shades of gray are often defined using equal values for all three parameters.
+HSL stands for hue, saturation, and lightness.
+Saturation can be described as the intensity of a color.
+100% is pure color, no shades of gray
+50% is 50% gray, but you can still see the color.
+0% is completely gray, you can no longer see the color.
+
+CSS stands for Cascading Style Sheets.
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+Inline - by using the style attribute inside HTML elements.
+Internal - by using a <style> element in the <head> section.
+External - by using a <link> element to link to an external CSS file.
+An internal CSS is used to define a style for a single HTML page.
+The CSS color property defines the text color to be used.
+The CSS font-family property defines the font to be used.
+The CSS font-size property defines the text size to be used.
+The CSS border property defines a border around an HTML element.
+The CSS padding property defines a padding between the text and the border.
+The CSS margin property defines a margin outside the border.
+
+HTML links are hyperlinks.
+You can click on a link and jump to another document.
+When you move the mouse over a link, the mouse arrow will turn into a little hand.
+Use the <a> element to define a link.
+Use the href attribute to define the link address.
+Use the target attribute to define where to open the linked document.
+Use the <img> element (inside <a>) to use an image as a link.
+Use the mailto: scheme inside the href attribute to create a link that opens the user's email program.
+
+HTML Link Colors:-
+	An unvisited link is underlined and blue.
+	A visited link is underlined and purple.
+	An active link is underlined and red.
+Use the id attribute (id="value") to define bookmarks in a page.
+Use the href attribute (href="#value") to link to the bookmark.
+	src - Specifies the path to the image.
+	alt - Specifies an alternate text for the image.
+You can use the style attribute to specify the width and height of an image.
+Alternatively, you can use the width and height attributes.
+Use the CSS float property to let the image float to the left or to the right.
+
+The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.
+A background image can be specified for almost any HTML element.
+
+The HTML <picture> Element
+The HTML <picture> element gives web developers more flexibility in specifying image resources.
+The <picture> element contains one or more <source> elements, each referring to different images through the srcset attribute. 
+Each <source> element has a media attribute that defines when the image is the most suitable.
+
+
