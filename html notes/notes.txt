@@ -103,4 +103,46 @@ The HTML <picture> element gives web developers more flexibility in specifying i
 The <picture> element contains one or more <source> elements, each referring to different images through the srcset attribute. 
 Each <source> element has a media attribute that defines when the image is the most suitable.
 
+tables:
+	to create tables in html firstly  write starting tag <table> and end with ending tag </table>.
+	rows-tr(table rows) same as starting tag <tr> and ending tag </tr>.
+	colums-td(table data) startes with <td> and ends with </td>.
+	to create table heading th tag follows with starting tag and ending tag.
+	
+for suppose the table has 3rows and 2columns syntax:
+	<table border="value">
+	<tr><td> </td><td> </td></tr>
+	<tr><td> </td><td> </td></tr>
+	<tr><td> </td><td> </td></tr>
+	 </table>
+
+To create a table border u have to use border attribute.
+To move the table to center u have to use center tag at starting <center> at ending </center>.
+header is a tags and it is a head of the table.
+	<thead> <th> data</th></thead>
+footer is a tags and it is a foot of the table.
+	<tfoot> <tr> <td> </td> </tr> </tfoot>
+
+cell padding is attribute and it is used to increase the size of the cells in tables.
+		<table cellpadding="value">
+cell spacing is attributeand it is used to increase the border size of the table.
+		<table cellspacing="value">
+
+to align the table in center u have to use align attribute and followed with if u want to move the table to center use center and to move right use right attributes
+	<table align="center">	(or)	<table align="right">
+
+To increase the height of the table use hight attribute.
+And also to increase the width of the table use width attribute.
+
+To merge the rows in the table rowspan is used.
+	<tr><td rowspan="2"> data </td></tr>
+to merge the column in the table use colspan is used.
+	<tr><td colspan="3"> data</td></tr>
+
+In tables to move the data to align center,right and left. in this align attribute is used.
+and also valign is used to move the data to top,bottom and middle. in this valign attribute is used.
+
+how to add colurs to the tables:-
+	To change the border colur in the table bordercolor attribute is used.
+	to change the background color use bgcolor attribute.
 
